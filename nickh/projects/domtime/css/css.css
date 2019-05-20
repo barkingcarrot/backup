@@ -1,0 +1,22 @@
+body {
+    background-color: maroon;
+}
+
+.myFont {
+    font-family: 'Inconsolata', monospace;
+    color: lime;
+}
+
+#clockDisplay {
+    align-content: center;
+    color: cyan;
+    font-size: 35px;
+    font-family: 'Inconsolata', monospace;
+    border: 2px solid lime;
+    background-color: red;
+    text-align: center;
+    width: 40%;
+    padding: 10px;
+    border-radius: 50px;
+    
+}

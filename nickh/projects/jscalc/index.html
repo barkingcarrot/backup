@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>payment calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/calc.css">
+</head>
+<body>
+    <h1 class="myFont">Payment Calculator</h1>
+    <h3>Nicholas Hurst</h3>
+    <table class="table2">
+        <tr>
+            <td>
+                <div>
+                    <img src="images/OK2.jpg" alt="Finance Formula">
+                </div>
+            </td>
+
+            <td>
+                <ul>
+                    <li>M = The monthly payment</li>
+                    <li>P = Principal, cost minus downpayment</li>
+                    <li>r = Interest rate per payment, APR divided by 12(Months)</li>
+                    <li>t = Number of years, 12 * T = Total monthly payments</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <br>
+
+    <table>
+        <tr>
+            <td>
+                <input type="text" id="price">
+            </td>
+            <td>
+                <h3>Cost</h3>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" id="tax">
+            </td>
+            <td>
+                <h3>Enter % sales tax here</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="down">
+            </td>
+            <td>
+                <h3>Down payment</h3>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button type="button" onclick="calcPrincipal()">Calculate</button>
+            </td>
+            <td>
+                <h3>Calculate the Principal</h3>
+            </td>
+        </tr>
+        
+        <tr>
+                <td>
+                        <input type="text" id="resultInput" readonly>
+                </td>
+                <td>
+                    <h3>Calculated Result</h3>
+                </td>
+            </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <h3>APR (Annual Percentage Rate)</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <h3>Months for repayment</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button">Calculate</button>
+            </td>
+            <td>
+                <h3>Monthly Payment</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text">
+            </td>
+            <td>
+                <h3>Payment amount per month</h3>
+            </td>
+        </tr>
+        <tr>
+    </table>
+    <h1 class="myFont">Created in Visual Studio</h1>
+    <h2 class="myFont">January 2019</h2>
+    <script src="js/payment.js"></script>
+
+</body>
+</html>

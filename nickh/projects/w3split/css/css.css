@@ -1,0 +1,42 @@
+* {box-sizing: border-box;}
+
+.img-comp-container {
+  position: relative;
+  height: 200px; /*should be the same height as the images*/
+}
+
+.img-comp-img {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.img-comp-img img {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  opacity: .5;
+  border-radius: 50%;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type=text] {
+    font-size: 1.2em;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: red;
+}
+
+.graph {
+    color: red;
+}
+
+table, th, td {
+    border: 1px dotted red;
+    padding: 10px;
+    offset: 5px;
+    box-shadow: 3px 3px maroon;
+  }
+
+td {
+    color: lime;
+}
+
+th {
+    color: blue;
+}
+
+h2 {
+    color: lime;
+}
+
+h3 {
+    color: magenta;
+}
+
+p {
+    color: white;
+}
+
+button {
+    border: 3px dashed red;
+    color: lime;
+    background-color:darkslategray;
+}

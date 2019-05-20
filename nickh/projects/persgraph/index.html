@@ -1,0 +1,54 @@
+
+<html>
+
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+        <link rel="stylesheet" href="css/css.css">
+        <script src="java/js.js">
+        
+        </script>
+    </head>
+    
+    <body onLoad="init()">
+        <div align="center">
+            <h2>Average grades throughout the school year</h2>
+            <h3>Numbers taken from my friend </h3>
+            
+            <select id="company" value="" name="">
+                <option value="">Select Subject</option>
+                <option value="Albertsons">English</option>
+                <option value="IdaCorp">Science</option>
+                <option value="Micron">Math</option>
+            </select>
+    
+            <select id="month" name="" value="">
+                <option value="">Select Month</option>
+                <option value="Jan">January</option>
+                <option value="Feb">February</option>
+                <option value="Mar">March</option>
+                <option value="Apr">April</option>
+                <option value="May">May</option>
+                <option value="Jun">June</option>
+                <option value="Jul">July</option>
+                <option value="Aug">August</option>
+                <option value="Sep">September</option>
+                <option value="Oct">October</option>
+                <option value="Nov">November</option>
+                <option value="Dec02.">December</option>
+            </select>
+    
+            <input id="profit" type="text" placeholder="Enter grade">
+            <button type="button" onclick="update()">Update Graph</button>
+            <br>
+    
+            <canvas id="canvas" height="800" width="1300">
+            </canvas>
+            <br>
+            <!--Legends for Dataplot -->
+            <span style="color:#FF0066"> English </span>
+            <span style="color:#9933FF"> Science</span>
+            <span style="color:#000"> Math </span>
+        </div>
+    </body>
+    
+    </html>

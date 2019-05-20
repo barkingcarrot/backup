@@ -1,0 +1,204 @@
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/jsgraph.css">
+    <script src="js/jsgraph.js">
+    
+    </script>
+</head>
+
+<body onLoad="init()">
+    <div align="center">
+      
+        
+      <h1>
+        <a href="www.westada.tech/b4/nickh">Dr Nick</a>
+        <a href="http://westada.tech/var/www/html/kadinp/projects/Blood/index.html">Patient: Kadin</a>
+        <a href="http://westada.tech/var/www/html/kadinp/projects/Blood/index.html">DOB: 3/20/2019</a>
+      </h1>
+
+        
+
+        <br>
+
+        <canvas id="canvas" height="800" width="1300">
+        </canvas>
+        <br>
+        <!--Legends for Dataplot -->
+        <span style="color:#FF0066"> Diastolic </span>
+        <span style="color:#0FF000"> Systolic </span>
+        <span style="color:#FF00FF"> Glucose </span>
+        <span style="color:#0FF0FF"> PulseOX </span>
+        <span style="color:#FFFFFF"> Well Being </span>
+        <table style="width:100%">
+          <tr>
+            <th>Day of month</th>
+            <th>Systolic</th> 
+            <th>Diastolic</th>
+            
+           
+            <th rowspan = 4><button>Submit</button></th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td> <input type="text"> </td>
+            <td> <input type="text"> </td>
+          </tr>
+          
+        </table>
+    </div>
+</body>
+
+</html>

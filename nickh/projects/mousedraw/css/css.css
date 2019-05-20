@@ -1,0 +1,16 @@
+body {
+    background-color: blue;
+}
+
+#drawCanvas {
+    background-color: #FFFFFF;
+    box-shadow: 8px 8px 16px #0000FF;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: bold;
+    font-size: 3em;
+    color: #00FFFF;
+    text-shadow: 4px 4px 6px #00FF00;
+}

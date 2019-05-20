@@ -1,0 +1,18 @@
+body {
+    background-color: maroon;
+}
+
+#canvas {
+    background: cyan;
+    box-shadow: 5px 5px 5px lime;
+    border: 5px solid blue;
+    margin-bottom: 10px;
+}
+
+.myFont {
+    color:white;
+}
+
+a {
+    color: cyan;
+}

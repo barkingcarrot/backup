@@ -1,0 +1,24 @@
+body {
+    background-color: lime;
+}
+
+h1 {
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-size: 3em;
+    color: blue;
+    text-shadow: 4px 4px 6px cyan;
+}
+
+.picturepanel {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    width: fit-content;
+    max-width: 500px;
+    max-height: 300px;
+    border: 2px solid silver;
+    overflow: auto;
+    position: relative;
+  }
+  .picturepanel canvas { display: block; }
+  .toolbar > * { margin-right: 5px; }

@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    
+}
+
+.myFont {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background: red;
+        background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+        background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+        background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3vw;
+}
+
+.myFont2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+li {
+    font-size: 1.5em;
+    color: white;
+}
+
+table {
+    border: 5px ridge rgb(78, 212, 0);
+    padding: 5px;
+    box-shadow: 6px 6px 12px rgb(7, 82, 0);
+    width: 80%;
+    border-spacing: 1px;
+    margin: auto;
+}
+
+.table2 {
+    border: 5px ridge rgb(0, 238, 255);
+    padding: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 124, 124);
+    width: 65%;
+    border-spacing: 5px;
+    margin: auto;
+}
+
+td {
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px;
+    background-color: rgb(124, 6, 6);
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+input[type='text'] {
+    border: 3px solid blue;
+    border-radius: 4px;
+    background-color: white;
+  }
+
+input[type='text']:hover {
+    box-shadow: 10px 10px cyan;
+}
+
+input[type='text']:focus {
+    background-color: lime;
+}
+
+button {
+    color: green;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    border: 5px solid cyan;
+}

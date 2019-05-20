@@ -1,0 +1,37 @@
+body {
+    background-color: lightblue;
+}
+
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input[type=text] {
+    font-size: 1.2em;
+    border: 2px solid green;
+    border-radius: 4px;
+    background-color: maroon;
+}
+
+.graph {
+    color: red;
+}
+
+h2 {
+    color: red
+}
+h3 {
+    color: green;
+}
+
+button {
+    color: cyan;
+    background-color: blue;
+    border: 2px solid red;
+}
+
+select {
+    color: cyan;
+    background-color: blue;
+    border: 2px solid red;
+}

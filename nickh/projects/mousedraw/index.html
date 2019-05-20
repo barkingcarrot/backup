@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mouse draw</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body onLoad="InitMouseDraw();">
+
+    <div align="center">
+        <br>
+        <h1>Mouse draw! / Example by nick hurst / March 2019</h1>
+        <br>
+        <hr><br>
+        <canvas id="drawCanvas" width="500" height="200" style="border:3px solid lime"></canvas>
+        <br><br>
+        <button onclick="javascript:clearArea();return false;"> Clear</button>
+        Line width: <select id="selWidth">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9">9</option>
+            <option value="11">11</option>
+        </select>
+        Color: <select id="selColor">
+             <option value="black">black</option>
+             <option value="blue">blue</option>
+             <option value="red">red</option>
+             <option value="green">green</option>
+             <option value="yellow">yellow</option>
+             <option value="gray">gray</option>
+        </select>
+    </div>
+    
+    <script src="js/js.js"></script>
+</body>
+</html>
